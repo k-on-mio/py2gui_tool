@@ -1,5 +1,7 @@
 # py2gui_tool
 
+将 `.py` 命令行脚本自动转换成带 GUI 界面的工具。
+
 `py2gui_tool` turns common Python CLI scripts into a generated Tkinter GUI project.
 
 Supports:
