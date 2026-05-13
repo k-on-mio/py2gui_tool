@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "py2gui_tool"
+version = "1.0.0"
+description = "Generate a Tkinter GUI from Python CLI scripts (argparse/click/typer)"
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+py2gui = "py2gui_tool.__main__:main"
